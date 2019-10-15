@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DEA6AE6-13AE-4C67-84F0-E31B1F28164E}"
+	ProjectSection(SolutionItems) = preProject
+		BitManipulation.vsmdi = BitManipulation.vsmdi
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BitManipulation", "BitManipulation.vbproj", "{0BA291A9-85CB-4D3F-91C6-7D66C1DDED97}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BitManipulationTest", "..\tests\src\BitManipulationTest.vbproj", "{4D5860A8-0E1A-4ACF-A2D1-A7DCEA27CA5E}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BitManipulation.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BA291A9-85CB-4D3F-91C6-7D66C1DDED97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA291A9-85CB-4D3F-91C6-7D66C1DDED97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA291A9-85CB-4D3F-91C6-7D66C1DDED97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA291A9-85CB-4D3F-91C6-7D66C1DDED97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5860A8-0E1A-4ACF-A2D1-A7DCEA27CA5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5860A8-0E1A-4ACF-A2D1-A7DCEA27CA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5860A8-0E1A-4ACF-A2D1-A7DCEA27CA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5860A8-0E1A-4ACF-A2D1-A7DCEA27CA5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
